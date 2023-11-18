@@ -9,6 +9,43 @@
 <script src="script/agruculture.js"></script>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<h2>Poljodjelac shop</h2>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item">
+    <a href="#" id="pocetna" class="nav-link active" onclick="setActiveNavLink(this.id)">Početna</a>
+</li>
+<li class="nav-item">
+    <a href="#" id="kontakt" class="nav-link" onclick="setActiveNavLink(this.id)">Kontakt</a>
+</li>
+<li class="nav-item">
+    <a href="#" id="kosarica" class="nav-link" onclick="setActiveNavLink(this.id)">Košarica</a>
+</li>
+<li class="nav-item">
+    <a href="#" id="popusti" class="nav-link" onclick="setActiveNavLink(this.id)">Popusti</a>
+</li>
+</ul>
+</div>
+    </nav>
+    <div class="container-fluid">
+<div class="row">
+<div class="col">
+    <nav>
+        <ul class="nav flex-column">
+<li class="nav-item">
+    <a href="#" class="nav-link active">Registracija</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">Prijava</a>
+</li>
+        </ul>
+    </nav>
+</div>
+</div>
+    </div>
 </body>
 </html>
